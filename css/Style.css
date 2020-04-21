@@ -585,4 +585,17 @@ footer.footer .move-up span:hover{
     margin-block-start: 0px;
 }
 
+ .about-section{
+    background: url('../assets/about1.webp');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.about-section h2,a{
+    color: white;
+    margin-bottom: 2em;
+}
+
 /*        x      Viewport less then or equal to 520px       x     */
