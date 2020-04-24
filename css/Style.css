@@ -593,9 +593,15 @@ footer.footer .move-up span:hover{
     justify-content: center;
     margin-bottom: 10px;
 }
-.about-section h2,a{
+.about-section h2 {
     color: white;
     margin-bottom: 20px;
 }
+
+.about-section a {
+    color: white;
+    margin-bottom: 20px;
+}
+
 
 /*        x      Viewport less then or equal to 520px       x     */
