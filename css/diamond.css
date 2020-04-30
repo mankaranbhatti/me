@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+canvas {
+  /*background: linear-gradient(-135deg, #008b8b, #000);*/
+ background: rgb(46,41,37);
+background: linear-gradient(90deg, rgba(46,41,37,0.9037990196078431) 0%, rgba(255,194,0,1) 100%, rgba(255,194,0,1) 100%);
+}

@@ -83,9 +83,13 @@ span{
 
 p{
     font-family: "brandon grotesque", brandon, helvetica, sans-serif;
-    color: #fff;
+    color: black;
     /*font-family: var(--Lexend);
     color: var(--text-light);*/
+}
+
+h1 >p{
+  color: white;  
 }
 
 /* ------x------- Global Classes -------x-------*/
@@ -176,8 +180,8 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/bg1.jpeg');
-    background-size: cover;
+   /*background: url('../assets/bg1.jpeg');
+    background-size: cover;*/
     height: 110vh;
     display: flex;
     justify-content: center;
@@ -187,6 +191,7 @@ main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
     color: var(--white);
+    position: absolute;
 }
 
 main .site-title h1, h3{
@@ -487,7 +492,7 @@ footer.footer .rights{
 }
 
 footer.footer .rights h4 a{
-    color: var(--white);
+    color: var(--black);
 }
 
 footer.footer .move-up{
@@ -603,5 +608,8 @@ footer.footer .move-up span:hover{
     margin-bottom: 20px;
 }
 
+header#header {
+  position: absolute;
+}
 
 /*        x      Viewport less then or equal to 520px       x     */
